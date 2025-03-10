@@ -12,8 +12,8 @@ const port = process.env.PORT || 3001;
 const db = mysql.createConnection({
   host: "172.26.64.107",
   user: "root",
-  password: "tu_contraseña", // Reemplázalo con tu contraseña real
-  database: "nombre_de_tu_base" // Cambia esto por el nombre de tu base de datos
+  password: "tu_contraseña", 
+  database: "nombre_de_tu_base" 
 });
 
 db.connect((err: Error | null) => {
